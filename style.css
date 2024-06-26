@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-#main-page *{
+*{
     padding: 0;
     margin: 0;
     outline: none;
     border: none;
     box-sizing: border-box;
 }
-
-#main-page img{
+img{
     width: 150%;
     display: flex;
 }
 
-#main-page a{
+a{
     text-decoration: none;
 }
 
-#main-page body{
+body{
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff
 }
 
-#main-page nav{
+nav{
     max-width: 1200px;
     margin: auto;
     padding: 2rem 1rem;
@@ -32,25 +31,25 @@
     gap: 2rem;
 }
 
-#main-page .nav-logo{
+.nav-logo{
     max-width: 100px;
 }
 
-#main-page .nav-links{
+.nav-links{
     list-style: none;
     display:flex;
     align-items: center;
     gap: 3rem;
 }
 
-#main-page .link a{
+.link a{
     position: relative;
     padding-bottom: 0.75rem;
     color: #3234b5;
     font-size: 1.5rem;
 }
 
-#main-page .link a::after{
+.link a::after{
     content: "";
     position: absolute;
     height: 2px;
@@ -61,11 +60,11 @@
     transition: all 0.3s ease;
 }
 
-#main-page .link a:hover::after{
+.link a:hover::after{
     width: 70%;
 }
 
-#main-page .btn{
+.btn{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #3234b5;
@@ -75,19 +74,19 @@
 }
 
 
-#main-page .container{
+.container{
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
 }
 
-#main-page .blur{
+.blur{
     position: absolute;
     box-shadow: 0 0 1000px 50px #1d4ed8;
     z-index: -100;
 }
 
-#main-page header{
+header{
     position: relative;
     padding-top: 2rem;
     display: grid;
@@ -96,14 +95,14 @@
     gap: 2rem;
 }
 
-#main-page header .content h4{
+header .content h4{
     margin-bottom: 1rem;
     color:#3234b5;
     font-size: 1rem;
     font-weight: 600;
 }
 
-#main-page header.content h1{
+header.content h1{
     color: #3234b5;
     margin-bottom: 1rem;
     font-size: 3rem;
@@ -111,21 +110,21 @@
     line-height: 4rem;
 }
 
-#main-page header .content h1 span{
+header .content h1 span{
     -webkit-text-fill-color:transparant;
     -webkit-text-stroke: 1px #3234b5;
 }
 
-#main-page header .content p{
+header .content p{
     margin-bottom: 2rem;
     color: rgb(0, 0, 0)
 }
 
-#main-page header .image{
+header .image{
     position: relative;
 }
 
-#main-page header .image::before{
+header .image::before{
     content: "o";
     position: absolute;
     top: 0;
@@ -139,7 +138,7 @@
     z-index: -100
 }
 
-#main-page header .image img{
+header .image img{
     border: 5px solid #1d4ed8;
     max-width: 600px;
     max-height: 600px;
@@ -148,7 +147,7 @@
     padding: 0px;
 }
 
-#main-page section .header{
+section .header{
     margin-bottom: 1rem;
     color: #1d4ed8;
     text-align: center;
@@ -156,14 +155,14 @@
     font-weight: 600;
 }
 
-#main-page .services{
+.services{
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
-#main-page .services .card{
+.services .card{
     background-color:beige;
     padding: 1rem;
     border: 2px solid transparent;
@@ -171,12 +170,12 @@
     transition: all 0.3s ease;
 }
 
-#main-page .services .card:hover{
+.services .card:hover{
     background-color: bisque;
     border-color:black;
 }
 
-#main-page .services .card span{
+.services .card span{
     display: inline-block;
     background-color: #1d4ed8;
     padding: 2px 9px;
@@ -186,28 +185,28 @@
     border-radius: 5px;
 }
 
-#main-page .services .card h4{
+.services .card h4{
     margin-bottom: 0.5rem;
     color: black;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-#main-page .services .card p{
+.services .card p{
     color: darkslategray;
     margin-bottom: 1rem;
 }
 
-#main-page .services .card a{
+.services .card a{
     color: #1d4ed8;
     transition: all 0.3s ease;
 }
 
-#main-page .services .card a:hover{
+.services .card a:hover{
     color: #142d81;
 }
 
-#main-page .heading .gallery h2{
+.heading .gallery h2{
     margin-bottom: 1rem;
     color: #1d4ed8;
     text-align: center;
@@ -215,57 +214,57 @@
     font-weight: 600;
 }
 
-#main-page .sub-header{
+.sub-header{
     max-width: 600px;
     margin: auto;
     text-align: center;
     color: darkslategray;
 }
 
-#main-page .container .box{
+.container .box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-#main-page .container .box .dream{
+.container .box .dream{
     display: flex;
     flex-direction: column;
     width: 32.5%;
 }
 
-#main-page .container .box .dream img{
+.container .box .dream img{
     border: 3px solid darkslategray;
     width: 100%;
     padding: 5px;
     border-radius: 5px;
 }
 
-#main-page footer{
+footer{
     position: relative;
     display: grid;
     grid-template-columns: 400px repeat(3, 1fr);
     gap: 2rem;
 }
 
-#main-page footer .column .logo{
+footer .column .logo{
     max-width: 100px;
     margin-bottom: 2rem;
 }
 
-#main-page footer .column p{
+footer .column p{
     color: darkslategray;
     margin-bottom: 2rem;
 }
 
-#main-page footer .column .socials{
+footer .column .socials{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-#main-page footer .columns .socials a{
+footer .columns .socials a{
     color: darkslategray;
     border: 1px solid darkslategray;
     padding: 5px 10px;
@@ -274,76 +273,10 @@
     transition: all 0.3s ease;
 }
 
-#main-page footer .columns .socials a:hover{
+footer .columns .socials a:hover{
     color: rgb(39, 65, 65);
     background-color: #1d4ed8;
     border-color: #1d4ed8;
     
 }
 
-/* Contact Form Styles */
-
-#contact-page *{
-    background-color: white;
-    padding: 10px;
-}
-
-#contact-page h1{
-    color: #1d4ed8;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-}
-
-#contact-page input{
-    background-color: beige;
-    width: 70%;
-    margin-left: 12%;
-    font-size: 20px;
-    padding: 16px 16px;
-    border-radius: 10px;
-    border-color: #1d4ed8;
-    margin-bottom: 20px;
-    transition: all 0.3s ease;
-}
-
-#contact-page input:hover{
-    background-color: bisque;
-    border-color:#13389c;
-}
-
-#contact-page textarea{
-    background-color: beige;
-    width: 70%;
-    margin-left: 12%;
-    font-size: 20px;
-    padding: 16px 16px;
-    border-radius: 10px;
-    border-color: #1d4ed8;
-    margin-bottom: 25px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-
-#contact-page textarea:hover{
-    background-color: bisque;
-    border-color:#13389c;
-}
-
-#contact-page button {
-    background-color: beige;
-    border-radius: 20px;
-    border-color: #1d4ed8;
-    font-size: 22px;
-    padding: 10px 18px;
-    text-align: center;
-    display: flex;
-    margin: auto;
-}
-
-#contact-page button:hover{
-    background-color: bisque;
-    border-color:#13389c;
-    cursor: pointer;
-}
