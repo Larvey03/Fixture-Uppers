@@ -124,7 +124,7 @@ header .image{
     position: relative;
 }
 
-header .image::before{
+/* header .image::before{
     content: "o";
     position: absolute;
     top: 0;
@@ -136,7 +136,7 @@ header .image::before{
     color: #1d4ed8;
     opacity:0.2;
     z-index: -100
-}
+} */
 
 header .image img{
     border: 5px solid #1d4ed8;
