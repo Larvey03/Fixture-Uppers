@@ -75,16 +75,11 @@ nav{
 
 
 .container{
-    max-width: 450px;
+    max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
 }
 
-/* .blur{
-    position: absolute;
-    box-shadow: 0 0 1000px 50px #1d4ed8;
-    z-index: -100;
-} */
 
 header{
     position: relative;
@@ -124,19 +119,6 @@ header .image{
     position: relative;
 }
 
-/* header .image::before{
-    content: "o";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-    font-size: 38rem;
-    font-weight: 400;
-    line-height: 40rem;
-    color: #1d4ed8;
-    opacity:0.2;
-    z-index: -100
-} */
 
 header .image img{
     border: 5px solid #1d4ed8;
@@ -155,6 +137,13 @@ section .header{
     font-weight: 600;
 }
 
+hr{
+    height: 2px;
+    background-color: black;
+    width: 60%;
+    margin: auto;
+}
+
 .services{
     margin-top: 4rem;
     display: grid;
@@ -165,9 +154,10 @@ section .header{
 .services .card{
     background-color:beige;
     padding: 1rem;
-    border: 2px solid transparent;
+    border: 2px solid darkslategray;
     border-radius: 15px;
     transition: all 0.3s ease;
+    margin-top: 1rem;
 }
 
 .services .card:hover{
@@ -241,6 +231,7 @@ section .header{
     border-radius: 5px;
 }
 
+
 footer{
     position: relative;
     display: grid;
@@ -280,11 +271,18 @@ footer .columns .socials a:hover{
 }
 
 @media only screen and (max-width: 414px){
-    .content{
-        
+    .services{
+        display: table;
     }
-
-    .nav-logo{
-        
+    .content{
+        display: collapse;
+    }
+    header .image img{
+        border: 5px solid #1d4ed8;
+        max-width: 600px;
+        max-height: 600px;
+        margin: auto;
+        border-radius: 50px;
+        padding: 0px;
     }
 }
