@@ -92,13 +92,13 @@ header{
 
 header .content h4{
     margin-bottom: 1rem;
-    color:#3234b5;
+    color:#1d4ed8;
     font-size: 1rem;
     font-weight: 600;
 }
 
 header.content h1{
-    color: #3234b5;
+    color: #1d4ed8;
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -107,7 +107,7 @@ header.content h1{
 
 header .content h1 span{
     -webkit-text-fill-color:transparant;
-    -webkit-text-stroke: 1px #3234b5;
+    -webkit-text-stroke: 1px #1d4ed8;
 }
 
 header .content p{
@@ -152,9 +152,9 @@ hr{
 }
 
 .services .card{
-    background-color:beige;
+    background-color: #fff0db;
     padding: 1rem;
-    border: 2px solid darkslategray;
+    border: 2px solid black;
     border-radius: 15px;
     transition: all 0.3s ease;
     margin-top: 1rem;
@@ -183,7 +183,7 @@ hr{
 }
 
 .services .card p{
-    color: darkslategray;
+    color: black;
     margin-bottom: 1rem;
 }
 
@@ -208,7 +208,7 @@ hr{
     max-width: 600px;
     margin: auto;
     text-align: center;
-    color: darkslategray;
+    color: black;
 }
 
 .container .box{
@@ -225,7 +225,7 @@ hr{
 }
 
 .container .box .dream img{
-    border: 3px solid darkslategray;
+    border: 3px solid black;
     width: 100%;
     padding: 5px;
     border-radius: 5px;
@@ -245,7 +245,7 @@ footer .column .logo{
 }
 
 footer .column p{
-    color: darkslategray;
+    color: black;
     margin-bottom: 2rem;
 }
 
