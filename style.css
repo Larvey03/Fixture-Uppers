@@ -270,7 +270,7 @@ footer .columns .socials a:hover{
     border-color: #1d4ed8;
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 430px){
     .services{
         display: table;
     }
@@ -284,5 +284,33 @@ footer .columns .socials a:hover{
         margin: auto;
         border-radius: 50px;
         padding: 0px;
+    }
+    nav{
+        max-width: 300px;
+        width: 100%;
+        margin: auto;
+        padding: 2rem 1rem;
+        display: inline-block;
+        align-items: left;
+        justify-content: space-between;
+        gap: 3rem;
+        visibility: hidden;
+    }
+
+    .nav-links{
+        max-width: 300px;
+        width: 100%;
+        visibility: hidden;
+    }
+    
+    .btn{
+        visibility: hidden;
+    }
+
+    .nav-logo{
+        position: absolute;
+        bottom: 600px;
+        left: 0;
+        visibility:hidden
     }
 }

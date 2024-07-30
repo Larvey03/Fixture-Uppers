@@ -16,7 +16,7 @@ h1{
 }
 
 input{
-    background-color: beige;
+    background-color: #fff0db;
     width: 70%;
     margin-left: 12%;
     font-size: 20px;
@@ -33,7 +33,7 @@ input:hover{
 }
 
 textarea{
-    background-color: beige;
+    background-color: #fff0db;
     width: 70%;
     margin-left: 12%;
     font-size: 20px;
@@ -51,7 +51,7 @@ textarea:hover{
 }
 
 button {
-    background-color: beige;
+    background-color: #fff0db;
     border-radius: 20px;
     border-color: #1d4ed8;
     font-size: 22px;
